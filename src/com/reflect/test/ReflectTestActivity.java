@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 import android.app.Activity;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
