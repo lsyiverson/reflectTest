@@ -56,12 +56,6 @@ public class ReflectTestActivity extends Activity {
         return isMobileDataEnable;
     }
 
-    @Override
-    protected void onDestroy() {
-        Log.d(TAG, "onDestroy");
-        super.onDestroy();
-    }
-
     private void setSwitchBtnText(Button switchBtn, boolean isOpened) {
         switchBtn.setText(isOpened ? "close" : "open");
     }
